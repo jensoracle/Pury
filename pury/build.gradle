@@ -33,10 +33,10 @@ android {
 }
 
 dependencies {
-    testCompile 'junit:junit:4.12'
-    testCompile 'org.mockito:mockito-core:1.10.19'
-    compile 'org.aspectj:aspectjrt:1.8.6'
-    compile 'com.nikitakozlov.pury:annotations:1.0.1'
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.mockito:mockito-core:1.10.19'
+    implementation 'org.aspectj:aspectjrt:1.8.6'
+    implementation 'com.nikitakozlov.pury:annotations:1.0.1'
 }
 
 ext {
